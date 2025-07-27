@@ -1,0 +1,113 @@
+role  role_U1_initiator(
+  U1, ECV: agent,
+  H,Mul: hash_func,
+  Kue:symmetric_key,
+  Cu1,Cu2, Pkecv2,PKecv3: public_key,
+  SND, RCV: channel(dy)
+)
+played_by U1
+def=
+  local
+    State: nat,
+    RIDuj, SKj,P1 : text,
+    Aj ,PIDj ,T2, T3, VP1j,VP2j, VP1i ,VP2i,Rj: message
+init
+    State := 0
+ transition
+    1. State = 0 /\ RCV(start) =|>
+       RIDuj' := new() /\
+       Aj' := {xor(RIDuj', {H(Pkecv2)}_inv(Cu1)) }_Kue/\
+       SND({U1.ECV.Aj'}_Kue) /\  %20
+       secret(RIDuj', sid1, {U1}) /\
+       State' := 3
+2. State = 3 /\ RCV({U1.ECV.{U1.ECV.PIDj'}_Kue.T2'}_Kue) =|>
+      Rj' :=new() /\
+      P1' :=new()/\
+     VP1j' :={Mul(Rj'.H(P1'.T2'.U1.ECV))}_inv(Cu2) /\
+     VP2j' :={VP1j'.U1.ECV}_Kue/\
+
+     SND({U1.ECV.VP2j'.T2'}_Kue) /\
+
+     State' := 5
+3.  State =5 /\RCV({U1.ECV.VP2i'}_Kue) =|>  %30
+     %witness(U1,ECV, sid1, {VP1j})/\
+SKj' :=new() /\
+secret(SKj',sid1,{U1}) /\
+
+State' :=6
+%request(U1,ECV,sid1,{VP1i})
+end role
+role  role_ECV_initiator(
+  U1, ECV: agent,
+  H,Mul: hash_func,
+  Kue:symmetric_key,
+  PKecv2,PKecv3,Cu1,Cu2: public_key ,  %40
+  SND, RCV: channel(dy)
+)
+played_by ECV
+def=
+  local
+    State: nat,
+    Theta, SKi, P2: text,
+    PIDj, Aj, T2, T3, VP1i, VP2i,VP1j ,VP2j,Rj: message
+
+    %sid1: protocol_id
+  init
+    State := 1    %50
+  transition
+1. State = 1 /\ RCV({U1.ECV.Aj'}_Kue) =|>
+       Theta' := new() /\
+       PIDj' := xor(Aj', {H(Cu1.Theta')}_inv(PKecv2)) /\
+       T2' := new() /\
+       SND({U1.ECV.{U1.ECV.PIDj'}_Kue.T2'}_Kue) /\
+       secret(Theta', sid1, {ECV}) /\
+       State' := 3 %59
+
+2.State =3 /\ RCV({U1.ECV.VP2j'. T2'}_Kue) =|>
+T3' :=new()/\   %60
+P2' :=new() /\
+VP1i' :={Mul(P2'.T3')}_inv(PKecv3)/\
+VP2i' :={U1.ECV.VP1i' .VP2j'.T3'}_Kue/\
+SND({U1.ECV.VP2i'}_Kue) /\
+SKi' :=new() /\
+secret (SKi',sid1, {ECV}) /\
+%witness(ECV,U1,sid1,{VP1i'})/\
+State' :=7
+%request (ECV,U1,sid1,{VP1j})
+end role   
+
+ role session(     %70
+  U1, ECV: agent,
+  H,Mul: hash_func,
+  Kue:symmetric_key,
+  PKecv2, PKecv3, Cu1,Cu2: public_key
+)
+def=
+  local SU, RU, SE, RE: channel(dy)
+  composition
+   role_U1_initiator(U1, ECV, H, Mul,Kue,Cu1,Cu2,PKecv2, PKecv3,SU, RU)
+    /\ role_ECV_initiator(U1, ECV, H, Mul,Kue,PKecv2, PKecv3,Cu1, Cu2,SE, RE)   %80
+ 
+end role
+
+role environment()
+def=
+  const
+    u1, ecv: agent,
+    h,mul: hash_func,
+    sid1 : protocol_id,
+    kue:symmetric_key,
+    pkecv2,pkecv3, cu1,cu2: public_key
+  intruder_knowledge = {u1, ecv, pkecv2,pkecv3, cu1,cu2,h}
+composition
+    session(u1, ecv, h, mul,kue, pkecv2, pkecv3,cu1,cu2)/\ session(u1, ecv, h,  mul,kue,pkecv2, pkecv3,cu1,cu2)
+end role
+
+goal
+  
+secrecy_of sid1    
+%authentication_on sid1
+
+end goal
+
+environment()
