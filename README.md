@@ -5,4 +5,4 @@ In this experiment, we abstracted the specific implementation details of the pro
 The corresponding abstraction strategy is documented within the code. 
 If you have any questions, please contact us by our email.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We also provide a detailed calculation process for the computational overhead of the baseline schemes for comparison (including the scheme proposed in this paper).
+We also provide a detailed calculation process for the computational overhead of the baseline schemes for comparison (including the scheme proposed in this paper). The relevant information is contained in the file "PCVAKA_computation_costs_comparison.svg". For viewing purposes, please open the file using a web browser after downloading it.
