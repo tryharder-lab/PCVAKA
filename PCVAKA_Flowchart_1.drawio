@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram id="bdWXhv5n_p06Lao5lJHs" name="第 1 页">
+    <mxGraphModel dx="2245" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f9yuPRQkC-4hp2Ok-kdn-5" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="680" y="30" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f9yuPRQkC-4hp2Ok-kdn-3" value="" style="group;fillColor=#FFCC99;container=0;" parent="f9yuPRQkC-4hp2Ok-kdn-5" vertex="1" connectable="0">
+          <mxGeometry width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f9yuPRQkC-4hp2Ok-kdn-1" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.satellite_dish;network2IconXOffset=-0.0067;network2IconYOffset=0.0022;network2IconW=1.0065;network2IconH=0.9957;" parent="f9yuPRQkC-4hp2Ok-kdn-5" vertex="1">
+          <mxGeometry x="40.00333333333333" width="20.07333333333333" height="19.86" as="geometry" />
+        </mxCell>
+        <mxCell id="f9yuPRQkC-4hp2Ok-kdn-2" value="" style="shape=mxgraph.signs.transportation.car_3;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" parent="f9yuPRQkC-4hp2Ok-kdn-5" vertex="1">
+          <mxGeometry y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f9yuPRQkC-4hp2Ok-kdn-4" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;ECV&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;opacity=0;" parent="f9yuPRQkC-4hp2Ok-kdn-5" vertex="1">
+          <mxGeometry x="-10" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f9yuPRQkC-4hp2Ok-kdn-6" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="30" as="sourcePoint" />
+            <mxPoint x="900" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1o294rSCT0AhD9juVpJ-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiB2ZXJzaW9uPSIxLjEiIGlkPSLQodC70L7QuV8xIiB2aWV3Qm94PSIwLjUyNTk4MzgxMDQyNDgwNDcgMTQzLjYwNjUyMTYwNjQ0NTMgNTExLjE4MzAxMzkxNjAxNTYgMjYxLjg1MjA1MDc4MTI1IiBoZWlnaHQ9IjQwOS4xNDM4MjkzNDU3MDMxIiB3aWR0aD0iNzk4LjcyMzQ1OTI0Mzc3NDQiPiYjeGE7JiN4YTs8Zz4mI3hhOyYjeGE7PGc+JiN4YTsmI3hhOzxnPiYjeGE7JiN4YTs8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiMzMzMzMzMiIGQ9Ik0yNTYuMTE1LDI1NS4yNzJjLTcuNzg0LDAuMDEtMTQuNDM4LDIuNzgyLTE5Ljk2LDguMzIxICAgICAgYy01LjUzOSw1LjUyMS04LjMxNSwxMi4xNzUtOC4zMjIsMTkuOTU5YzAuMDA3LDcuODAyLDIuNzgzLDE0LjQ3NSw4LjMyMiwyMC4wMTdjNS41MjIsNS41MTksMTIuMTc2LDguMjczLDE5Ljk2LDguMjYyICAgICAgYzcuODA2LDAuMDEyLDE0LjQ3OC0yLjc0MywyMC4wMjEtOC4yNjJjNS41MTktNS41NDIsOC4yNzQtMTIuMjE1LDguMjYzLTIwLjAxN2MwLjAxMi03Ljc4NC0yLjc0NC0xNC40MzgtOC4yNjMtMTkuOTU5ICAgICAgQzI3MC41OTMsMjU4LjA1NSwyNjMuOTIxLDI1NS4yODIsMjU2LjExNSwyNTUuMjcyeiBNMjc4Ljk4NiwxODkuMTcxaDEuMzM5YzEwLjI2OCwwLjI0MiwxOS4yMTEsMS44OSwyNi44MjgsNC45NDYgICAgICBjNy43NTksMy4xNCwxNC4xNCw3Ljc1NiwxOS4xNDYsMTMuODQ4aDkwLjA4NnYtMjYuMDY3Yy0xMS4wMjctMC4yMDktMjEuMjExLTAuNzE0LTMwLjU1Mi0xLjUxMyAgICAgIGMtNi42MzYtMC41NjktMTIuODQyLTEuMjg3LTE4LjYyMy0yLjE1NGMtMTYuNTEzLTIuNDMxLTI0Ljc3NS01LjM1OS0yNC43OTItOC43ODZjMC4wMTctMy40MDksOC4yNzktNi4zMzgsMjQuNzkyLTguNzg2ICAgICAgYzEzLjk1Ni0yLjAyLDMwLjM0OS0zLjE4NCw0OS4xNzUtMy40OTF2LTEuMjIyYy0wLjAxOC0xLjQzNiwwLjE5Ni0yLjc3MywwLjY0LTQuMDE2YzAuNTY1LTEuNzU4LDEuNTM2LTMuMzQ5LDIuOTA5LTQuNzcxICAgICAgYzIuNDEtMi4zOTQsNS4zMTktMy41NzgsOC43MjktMy41NWMzLjQ1MS0wLjAyOCw2LjQwMSwxLjE1Niw4Ljg0OCwzLjU1YzIuMzIzLDIuMzU1LDMuNTQ0LDUuMTY3LDMuNjY0LDguNDM3ICAgICAgYzAsMC4xMTYsMCwwLjIzMiwwLDAuMzUxdjEuMjIyYzYuMzkzLDAuMTc5LDEyLjUwMywwLjQ3LDE4LjMzMSwwLjg3M2M5Ljk1NSwwLjU1OCwxOS4wNTMsMS40MzEsMjcuMjk1LDIuNjE4ICAgICAgYzAuNDc0LDAuMDg5LDAuOTM5LDAuMTg2LDEuMzk2LDAuMjkxYzE1LjYyNiwyLjM3MiwyMy40NjIsNS4yMDMsMjMuNTEyLDguNDk1Yy0wLjA1LDMuMzMtNy44ODYsNi4xODEtMjMuNTEyLDguNTU0ICAgICAgYy0wLjQ1NywwLjA4NS0wLjkyMywwLjE2Mi0xLjM5NiwwLjIzMmMtMTMuMDUxLDEuOTYxLTI4LjI1OSwzLjE0NC00NS42MjYsMy41NXYyNi4xODVINDUyYzMuNDMxLDAuMDEyLDYuMzYsMS4yMzMsOC43ODgsMy42NjYgICAgICBjMi40MzMsMi40MDgsMy42NTUsNS4zMTgsMy42NjUsOC43MjljLTAuMDA3LDIuNDI3LTAuNjI4LDQuNTk5LTEuODYyLDYuNTE3Yy0yLjExNCwyLjgxMi01LjE4MSw0Ljc4OS05LjE5NSw1LjkzNSAgICAgIGMtMzMuOTg0LDguMTQ2LTY3Ljk3LDE2LjI5My0xMDEuOTU3LDI0LjQzOWwzOC45MzQsODEuNTgyYzAuMjI2LDAuNDAyLDAuNDM5LDAuODEyLDAuNjM5LDEuMjIxICAgICAgYzkuMzMyLDI2LjIzNSwyLjgzMyw0Ny4yNDItMTkuNDk1LDYzLjAxOWMtMi44MDgsMi4wMTQtNS44OSwyLjc1My05LjI1MiwyLjIxMmMtMy4zMjUtMC42MTYtNS45NjUtMi4zNDEtNy45MTUtNS4xODEgICAgICBjLTIuMDE3LTIuNzk4LTIuNzU2LTUuODgyLTIuMjEyLTkuMjUxYzAuNTg0LTMuMzQzLDIuMjczLTYsNS4wNjQtNy45NzFjMTIuMDE3LTguNjE3LDE1LjQ5LTIwLjA2MiwxMC40MTYtMzQuMzMxICAgICAgbC00MC45MTEtODUuMzYybC0xMC42NSwyLjYxOHY0Mi41MzRjMC4wMDUsMy4wMzUtMC43NTMsNS44NjctMi4yNjksOC40OTd2MC4wNTdjLTEuNTM0LDIuNjEzLTMuNjEsNC42NjktNi4yMjcsNi4xNjkgICAgICBsLTQyLjk0OCwyNC43Mjl2MC4wNmMtMi42NTUsMS41MDktNS40ODcsMi4yNjctOC40OTcsMi4yNjljLTMuMDIzLTAuMDI1LTUuODU2LTAuOC04LjQ5NS0yLjMyOGwtNDIuODktMjQuNzg5bC0wLjExOC0wLjA1NyAgICAgIGMtMi41ODUtMS41MzYtNC42MjEtMy42MTEtNi4xMS02LjIyNmMtMS41MTktMi42My0yLjI3My01LjQ0NC0yLjI2OS04LjQzOHYtNDIuNDc4bC0xMC43MDctMi42MThsLTQwLjkxMiw4NS4zNjIgICAgICBjLTUuMDczLDE0LjI3LTEuNjAzLDI1LjcxNCwxMC40MTYsMzQuMzMxYzIuNzkyLDEuOTcxLDQuNDgsNC42MjgsNS4wNjMsNy45NzFjMC41NDYsMy4zNjktMC4xOTMsNi40NTMtMi4yMDksOS4yNTEgICAgICBjLTEuOTUxLDIuODQtNC41OSw0LjU2NC03LjkxNiw1LjE4MWMtMy4zNjIsMC41NDEtNi40NDYtMC4xOTgtOS4yNTItMi4yMTJjLTIyLjMyOC0xNS43NzYtMjguODI3LTM2Ljc4My0xOS40OTUtNjMuMDE5ICAgICAgYzAuMi0wLjQwOSwwLjQxNC0wLjgxOCwwLjYzOS0xLjIyMWwzOC45MzQtODEuNTgyYy0zMy45ODctOC4xNDYtNjcuOTcyLTE2LjI5My0xMDEuOTU5LTI0LjQzOSAgICAgIGMtNC4wMTUtMS4xNDYtNy4wNzktMy4xMjMtOS4xOTMtNS45MzVjLTEuMjM0LTEuOTE4LTEuODU1LTQuMDktMS44NjQtNi41MTdjMC4wMTEtMy40MSwxLjIzMi02LjMyLDMuNjY3LTguNzI5ICAgICAgYzIuNDI4LTIuNDMzLDUuMzU4LTMuNjU0LDguNzg5LTMuNjY2aDEwLjgyM1YxODEuNzhjLTE3LjM2OC0wLjQwNi0zMi41NzYtMS41ODktNDUuNjI0LTMuNTUgICAgICBjLTAuNDczLTAuMDctMC45MzktMC4xNDctMS4zOTYtMC4yMzJjLTE1LjYyNi0yLjM3My0yMy40NjItNS4yMjQtMjMuNTEyLTguNTU0YzAuMDUtMy4yOTIsNy44ODYtNi4xMjMsMjMuNTEyLTguNDk1ICAgICAgYzAuNDU3LTAuMTA1LDAuOTIzLTAuMjAyLDEuMzk2LTAuMjkxYzguMjQzLTEuMTg4LDE3LjM0LTIuMDYxLDI3LjI5Mi0yLjYxOGM1LjgzMS0wLjQwMywxMS45NDEtMC42OTQsMTguMzMyLTAuODczdi0xLjIyMiAgICAgIGMwLTAuMTE4LDAtMC4yMzQsMC0wLjM1MWMwLjEyMy0zLjI3LDEuMzQ0LTYuMDgxLDMuNjY3LTguNDM3YzIuNDQ2LTIuMzk0LDUuMzk0LTMuNTc4LDguODQ1LTMuNTUgICAgICBjMy40MTMtMC4wMjgsNi4zMjIsMS4xNTYsOC43MjksMy41NWMxLjM3NSwxLjQyMywyLjM0NiwzLjAxNCwyLjkxLDQuNzcxYzAuNDQ2LDEuMjQyLDAuNjU5LDIuNTgsMC42NDEsNC4wMTZ2MS4yMjIgICAgICBjMTguODI3LDAuMzA4LDM1LjIyLDEuNDcyLDQ5LjE3NSwzLjQ5MWMxNi41MTMsMi40NDgsMjQuNzc2LDUuMzc3LDI0Ljc5Miw4Ljc4NmMtMC4wMTYsMy40MjctOC4yNzksNi4zNTUtMjQuNzkyLDguNzg2ICAgICAgYy01Ljc4MSwwLjg2Ny0xMS45ODksMS41ODUtMTguNjIyLDIuMTU0Yy05LjM0NCwwLjc5OS0xOS41MjcsMS4zMDQtMzAuNTUzLDEuNTEzdjI2LjA2N2g5MC4wODYgICAgICBjNS4wMDQtNi4wOTIsMTEuMzg3LTEwLjcwOCwxOS4xNDYtMTMuODQ4YzcuNjE4LTMuMDU3LDE2LjU2MS00LjcwNCwyNi44MjktNC45NDZoMS4zMzljMS4xNzMtMC4wMzksMi4zNzMtMC4wMzksMy42MDcsMGgzOC41MjQgICAgICBDMjc2LjYxLDE4OS4xMzIsMjc3LjgxMywxODkuMTMyLDI3OC45ODYsMTg5LjE3MXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPiYjeGE7JiN4YTs8L2c+JiN4YTsmI3hhOzxnPiYjeGE7JiN4YTs8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiMzMzMzMzMiIGQ9Ik0yNTYuMDU4LDI2OS40MTNjMy45MDEsMC4wMTQsNy4yMzgsMS40MTEsMTAuMDEsNC4xODggICAgICBjMi43NiwyLjc1MSw0LjEzNyw2LjA2OSw0LjEzMyw5Ljk1MWMwLjAwNCwzLjkwMS0xLjM3Myw3LjIzNy00LjEzMywxMC4wMDljLTIuNzcxLDIuNzU5LTYuMTA4LDQuMTM3LTEwLjAxLDQuMTMgICAgICBjLTMuODgzLDAuMDA3LTcuMTk5LTEuMzcxLTkuOTUyLTQuMTNjLTIuNzgtMi43NzEtNC4xNzYtNi4xMDctNC4xODktMTAuMDA5YzAuMDE0LTMuODgyLDEuNDA5LTcuMiw0LjE4OS05Ljk1MSAgICAgIEMyNDguODU4LDI3MC44MjQsMjUyLjE3NSwyNjkuNDI3LDI1Ni4wNTgsMjY5LjQxM3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPiYjeGE7JiN4YTs8L2c+JiN4YTsmI3hhOzwvZz4mI3hhOyYjeGE7PC9nPiYjeGE7JiN4YTs8L3N2Zz4=;imageBackground=light-dark(#CCE5FF,#774BA3);" parent="1" vertex="1">
+          <mxGeometry x="133.82" y="31.37" width="92.35" height="47.27" as="geometry" />
+        </mxCell>
+        <mxCell id="P1o294rSCT0AhD9juVpJ-3" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;UAV&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBackgroundColor=none;labelBorderColor=none;textShadow=1;opacity=0;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="90" y="45" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-3" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="80" as="sourcePoint" />
+            <mxPoint x="900" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="sourcePoint" />
+            <mxPoint x="720" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-5" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;\(M_1= \{PK_j, A_j, B_j, VT_1\}\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="330" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-6" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 130%;&quot; face=&quot;Times New Roman&quot;&gt;Choose current timestamp \(T_{cur}^0\) and check if \(|VT_1-T_{cur}^0|&amp;lt;\triangle t \) ? If yes, then choose \(c_i \in \mathbb{Z}_q^*\) and compute:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 18px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\(RID_j^*=A_j \oplus H(T_{\varrho^{a_i}}(PK_j))\), \(C_i=T_{\varrho^{c_i}}(\omega)\ mod \ q\), \( \sigma_j=H(RID_j^*||C_i||PK_i)\),&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\(PID_j=H(RID_j^*||C_i||PK_i||\sigma_j)\).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Generate a valid time slot \([ST_j,ET_j]\) for \(PID_j\).&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px; line-height: 130%;&quot;&gt;Choose \(K\) challenges \(Ch_1, Ch_2,...,Ch_K\).&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;Retrieve the current timestamp \(VT_2\) and send the message \(M_2\).&lt;/span&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px; line-height: 130%;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#6666FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="520" y="130" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="718.08" y="410" as="sourcePoint" />
+            <mxPoint x="180" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="110" as="sourcePoint" />
+            <mxPoint x="720" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="670" as="sourcePoint" />
+            <mxPoint x="719.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-13" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;\(M_2=\{PID_j, VT_2, Ch_1,...,Ch_K, RID_i, ET_j\}\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="225" y="370" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="620" as="sourcePoint" />
+            <mxPoint x="720" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ud0_RQHWGyshn_g6Pe-t-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px; color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;Registration&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#a0522d;strokeColor=#6D1F00;strokeWidth=2;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="375" y="34.63" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NHleuAWZ4CxZO5-9IL1X-18" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;\(M_3=\{PID_j,R_1^j,...,R_K^j,VT_3,VP_j\}\)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="250" y="620" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-3" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Choose \( a_j \), \(b_j \in \mathbb{Z}_q^*\), \( RID_j \in \{0,1\}^*\) and \(Ch_{uj,1}\in \mathbb{Z}_q^*\)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Calculate \( PK_j= T_{\varrho ^{a_j}}(\omega) \ mod \ q&amp;nbsp;\) and&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;ensure the confidentiality of its private key \(a_j\) via \(PUF(.)\) and \(FE.Gen(.)\):&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;\(Res_{uj,1}=PUF_{uj,1}(Ch_{uj,1})\),&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;\((K_{uj,1},hd_{uj,1})=FE.Gen(Res_{uj,1})\),&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;\(B_{uj,1}=H(Ch_{uj,1}||K_{uj,1}||hd_{uj,1}||PK_j)\oplus a_j\),&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;\(Check_{uj,1}=H(a_j||B_{uj,1})\). Then compute:&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;\(A_j=RID_j \oplus H(T_{\varrho^{a_j}}(PK_i) \),&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\( B_j= T_{\varrho ^{b_j}}(\omega) \ mod \ q&amp;nbsp;\)&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Store {\(Ch_{uj,1}, hd_{uj,1}, B_{uj,1}, Check_{uj,1},PK_j\)} locally.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 18px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Retrieve the current timestamp \(VT_1\) and send the message \(M_1\).&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;spacingBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="100" width="460" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="100" as="sourcePoint" />
+            <mxPoint x="180" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;exitX=0.317;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="S7U2IhtfvCXAJwQVl3jh-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="414" as="sourcePoint" />
+            <mxPoint x="180" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-9" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px; color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Step 1&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#B266FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="100" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-10" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px; color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Step 2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;strokeColor=#00994D;strokeWidth=2;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="520" y="110" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-13" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 18px; line-height: 130%;&quot; face=&quot;Times New Roman&quot;&gt;Choose current timestamp \(T_{cur}^1\) and check if: \(|VT_2-T_{cur}^1|&amp;lt;\triangle t \) ?&amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\(|ET_j-T_{cur}^1|&amp;lt;\triangle t \) ?&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px; line-height: 130%;&quot; face=&quot;Times New Roman&quot;&gt;If yes, then&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px; line-height: 130%;&quot; face=&quot;Times New Roman&quot;&gt;\(U_j\)&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;generate the response for&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;its own&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 18px; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;challenges:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;font-size: 18px; font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\(Ch_K^j=H(RID_j||Ch_K||PK_j)\),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;\(R_K^j=PUF(Ch_K^j)\).&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;Then retrieve the current timestamp \(VT_3\) and calculate:&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px; line-height: 130%;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;\(wt_j=H(PID_j||\sigma_j||B_j||Ch_1||...||Ch_K||VT_0||RID_i||VT_3||H(T_{\varrho^{a_j}}(PK_i)))\),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;\(VP_j=T_{\varrho^{b_j-wt_j}}(\omega)\ mod\ q\). Sed the message \(M_3\).&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#FFB366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="430" width="600" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-14" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px; color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Step 3&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;strokeWidth=2;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="420" width="600" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="665" as="sourcePoint" />
+            <mxPoint x="181" y="609" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S7U2IhtfvCXAJwQVl3jh-18" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="670" as="sourcePoint" />
+            <mxPoint x="900" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
